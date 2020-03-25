@@ -12,17 +12,11 @@
  Text Domain:  nevechildtheme
 */
 
-.elementor-91 .elementor-element.elementor-element-19cd67d7 .elementor-heading-title {
+/*--- "Kogle" logo overskrift ---*/
 
-    color: skyblue!important;
-
-
-/* test */
-
-
-    font-size: 4px !important;
+.site-logo p {
+    font-family:montserrat !important;
+    letter-spacing:2px !important;
 }
-
-/*  this is a test  */
 
 
