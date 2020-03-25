@@ -1,0 +1,36 @@
+2020-03-24T09:01:31+00:00 CRITICAL Uncaught Error: Call to undefined function beonepage_premium_info() in /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-content/plugins/beonepage-lite/beonepage-lite-plugin.php:50
+Stack trace:
+#0 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/class-wp-hook.php(290): beOnePageLitePlugin::beonepage_get_premium('beonepage-lite/...')
+#1 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-admin/includes/class-wp-plugins-list-table.php(1014): do_action('after_plugin_ro...', 'beonepage-lite/...', Array, 'all')
+#4 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-admin/includes/class-wp-plugins-list-table.php(607): WP_Plugins_List_Table->single_row(Array)
+#5 /customers/c/5/f/michalasoenderga in /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-content/plugins/beonepage-lite/beonepage-lite-plugin.php on line 50
+
+2020-03-24T09:01:53+00:00 CRITICAL Uncaught Error: Call to undefined function beonepage_premium_info() in /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-content/plugins/beonepage-lite/beonepage-lite-plugin.php:50
+Stack trace:
+#0 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/class-wp-hook.php(290): beOnePageLitePlugin::beonepage_get_premium('beonepage-lite/...')
+#1 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-admin/includes/class-wp-plugins-list-table.php(1014): do_action('after_plugin_ro...', 'beonepage-lite/...', Array, 'all')
+#4 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-admin/includes/class-wp-plugins-list-table.php(607): WP_Plugins_List_Table->single_row(Array)
+#5 /customers/c/5/f/michalasoenderga in /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-content/plugins/beonepage-lite/beonepage-lite-plugin.php on line 50
+
+2020-03-24T09:02:16+00:00 CRITICAL Uncaught Error: Call to undefined function beonepage_premium_info() in /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-content/plugins/beonepage-lite/beonepage-lite-plugin.php:50
+Stack trace:
+#0 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/class-wp-hook.php(290): beOnePageLitePlugin::beonepage_get_premium('beonepage-lite/...')
+#1 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-admin/includes/class-wp-plugins-list-table.php(1014): do_action('after_plugin_ro...', 'beonepage-lite/...', Array, 'all')
+#4 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-admin/includes/class-wp-plugins-list-table.php(607): WP_Plugins_List_Table->single_row(Array)
+#5 /customers/c/5/f/michalasoenderga in /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-content/plugins/beonepage-lite/beonepage-lite-plugin.php on line 50
+
+2020-03-24T09:02:27+00:00 CRITICAL Uncaught Error: Call to undefined function beonepage_premium_info() in /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-content/plugins/beonepage-lite/beonepage-lite-plugin.php:50
+Stack trace:
+#0 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/class-wp-hook.php(290): beOnePageLitePlugin::beonepage_get_premium('beonepage-lite/...')
+#1 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-admin/includes/class-wp-plugins-list-table.php(1014): do_action('after_plugin_ro...', 'beonepage-lite/...', Array, 'all')
+#4 /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-admin/includes/class-wp-plugins-list-table.php(607): WP_Plugins_List_Table->single_row(Array)
+#5 /customers/c/5/f/michalasoenderga in /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-content/plugins/beonepage-lite/beonepage-lite-plugin.php on line 50
+
