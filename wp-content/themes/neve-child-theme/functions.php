@@ -1,6 +1,7 @@
 <?php
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function my_theme_enqueue_styles() {
+    wp_enqueue_style('font-montserrat','https://fonts.googleapis.com/css?family=Montserrat&display=swap');
  
     $parent_style = 'parent-style'; // This is 'neve-child-style' for the Neve Child Theme.
  
