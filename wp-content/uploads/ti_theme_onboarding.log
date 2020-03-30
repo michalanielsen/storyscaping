@@ -1,117 +1,24 @@
-[25/Mar/2020:10:30:18] (ℹ️): WordPress Instance Info:
-[25/Mar/2020:10:30:18] (ℹ️): Home URL : https://michalasoendergaard.dk/storyscaping
-[25/Mar/2020:10:30:18] (ℹ️): Site URL : https://michalasoendergaard.dk/storyscaping
-[25/Mar/2020:10:30:18] (ℹ️): WordPress Version : 5.3.2
-[25/Mar/2020:10:30:18] (ℹ️): Onboarding Version : 1.8.2
-[25/Mar/2020:10:30:18] (ℹ️): Multisite : No
-[25/Mar/2020:10:30:18] (ℹ️): Server Info : Apache
-[25/Mar/2020:10:30:18] (ℹ️): PHP Version : 7.3.16
-[25/Mar/2020:10:30:18] (ℹ️): HTTPS : Yes
-[25/Mar/2020:10:30:18] (ℹ️): PHP Max Execution Time : 50
-[25/Mar/2020:10:30:18] (ℹ️): PHP Max Input Vars : 5000
-[25/Mar/2020:10:30:18] (ℹ️): Max Upload Size : 100663296
-[25/Mar/2020:10:30:18] (ℹ️): Plugins:
-[25/Mar/2020:10:30:18] (ℹ️): [PLUGIN] Elementor : v2.9.6 (Elementor.com)
-[25/Mar/2020:10:30:18] (ℹ️): [PLUGIN] Really Simple SSL : v3.3 (Rogier Lankhorst, Mark Wolters)
-[25/Mar/2020:10:30:18] (ℹ️): [PLUGIN] Orbit Fox Companion : v2.9.4 (Themeisle)
-[25/Mar/2020:10:30:18] (🔵): Saving remote XML
-[25/Mar/2020:10:30:18] (✅): Saved remote XML at path /customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-content/uploads/themeisle-demo-import.xml.
-[25/Mar/2020:10:30:18] (🔵): Starting content import...
-[25/Mar/2020:10:30:18] (✅): Import started.
-[25/Mar/2020:10:30:18] (✅): Parsing XML file.
-[25/Mar/2020:10:30:18] (🔵): Starting parsing file:/customers/c/5/f/michalasoendergaard.dk/httpd.www/storyscaping/wp-content/uploads/themeisle-demo-import.xml
-[25/Mar/2020:10:30:18] (🔵): Using Themeisle_OB_WXR_Parser_SimpleXML...
-[25/Mar/2020:10:30:18] (✅): Parsed XML
-[25/Mar/2020:10:30:18] (🔵): Processing categories...
-[25/Mar/2020:10:30:18] (✅): Processed categories.
-[25/Mar/2020:10:30:18] (🔵): Processing tags...
-[25/Mar/2020:10:30:18] (✅): No tags to process.
-[25/Mar/2020:10:30:18] (🔵): Processing terms...
-[25/Mar/2020:10:30:18] (⚠️): Failed to import action-group wc_update_product_lookup_tables
-[25/Mar/2020:10:30:18] (🔴️): Invalid taxonomy.
-[25/Mar/2020:10:30:18] (⚠️): Failed to import action-group woocommerce-db-updates
-[25/Mar/2020:10:30:18] (🔴️): Invalid taxonomy.
-[25/Mar/2020:10:30:18] (✅): Processed terms.
-[25/Mar/2020:10:30:18] (🔵): Processing posts...
-[25/Mar/2020:10:30:18] (✅): Media neve-facebook already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-twitter already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-instagram already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-googleplus already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-play already exists.
-[25/Mar/2020:10:30:18] (✅): Media nv-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-business-growth-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-dollar-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-clock-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-smile-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-envelope-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-map-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-photography-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-phone-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-chart-up-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-user-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-heart-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-gift-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media nv-5 already exists.
-[25/Mar/2020:10:30:18] (✅): Media nv-4 already exists.
-[25/Mar/2020:10:30:18] (✅): Media nv-6 already exists.
-[25/Mar/2020:10:30:18] (✅): Media nv-testimonial-signature already exists.
-[25/Mar/2020:10:30:18] (✅): Media alexis-blockquote6 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-unlimited-revisions2 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-ultimate-perfection-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-smart-experience1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-strict-deadline1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media neve-reputed-copmany1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media nv-team1-4 already exists.
-[25/Mar/2020:10:30:18] (✅): Media nv-team2-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media nv-team3-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media nv-team4-1 already exists.
-[25/Mar/2020:10:30:18] (✅): Media orages-smoothie1.jpg already exists.
-[25/Mar/2020:10:30:18] (✅): Media banana-strawbery-smoothie1.jpg already exists.
-[25/Mar/2020:10:30:18] (✅): Media cucumber-water1.jpg already exists.
-[25/Mar/2020:10:30:18] (✅): Media lemonade1.jpg already exists.
-[25/Mar/2020:10:30:18] (✅): Media citronnade1.jpg already exists.
-[25/Mar/2020:10:30:18] (✅): Media blog-3 already exists.
-[25/Mar/2020:10:30:18] (✅): Media blog-2 already exists.
-[25/Mar/2020:10:30:18] (✅): Media blog-1 already exists.
-[25/Mar/2020:10:30:18] (🔵): Inserting page: Blog .
-[25/Mar/2020:10:30:18] (✅): Done inserting page: Blog .
-[25/Mar/2020:10:30:18] (🔵): Inserting page: Home .
-[25/Mar/2020:10:30:18] (✅): Done inserting page: Home .
-[25/Mar/2020:10:30:18] (🔵): Filtering elementor meta...
-[25/Mar/2020:10:30:18] (✅): Filtered elementor meta.
-[25/Mar/2020:10:30:18] (✅): Custom CSS neve already exists.
-[25/Mar/2020:10:30:18] (✅): Media street-at-night already exists.
-[25/Mar/2020:10:30:18] (🔵): Processing single menu item ' About us '...
-[25/Mar/2020:10:30:18] (✅): Menu item already exists.
-[25/Mar/2020:10:30:18] (🔵): Processing single menu item ' Our Focus '...
-[25/Mar/2020:10:30:18] (✅): Menu item already exists.
-[25/Mar/2020:10:30:18] (🔵): Processing single menu item ' Our Team '...
-[25/Mar/2020:10:30:18] (✅): Menu item already exists.
-[25/Mar/2020:10:30:18] (🔵): Processing single menu item ' Features '...
-[25/Mar/2020:10:30:18] (✅): Menu item already exists.
-[25/Mar/2020:10:30:18] (🔵): Processing single menu item ' Pricing '...
-[25/Mar/2020:10:30:18] (✅): Menu item already exists.
-[25/Mar/2020:10:30:18] (🔵): Processing single menu item ' Testimonials '...
-[25/Mar/2020:10:30:18] (✅): Menu item already exists.
-[25/Mar/2020:10:30:18] (🔵): Processing single menu item ' Contact us '...
-[25/Mar/2020:10:30:18] (✅): Menu item already exists.
-[25/Mar/2020:10:30:18] (✅): Media fruits-mix-smoothie-new already exists.
-[25/Mar/2020:10:30:18] (✅): Media cucumber-lime-water-new already exists.
-[25/Mar/2020:10:30:18] (✅): Media apple-cucumbert-smoothie already exists.
-[25/Mar/2020:10:30:18] (✅): Media apple-peppermint-smoothie-new already exists.
-[25/Mar/2020:10:30:18] (🔵): Processing single menu item ' '...
-[25/Mar/2020:10:30:18] (🔵): Processing single menu item ' '...
-[25/Mar/2020:10:30:18] (✅): Menu item already exists.
-[25/Mar/2020:10:30:18] (✅): Media blog-4 already exists.
-[25/Mar/2020:10:30:18] (🔵): Processing single menu item ' Sections '...
-[25/Mar/2020:10:30:18] (✅): Menu item already exists.
-[25/Mar/2020:10:30:18] (✅): Processed posts.
-[25/Mar/2020:10:30:18] (🔵): Processing single menu item ' '...
-[25/Mar/2020:10:30:18] (🔵): Cleaning up import with id ...
-[25/Mar/2020:10:30:18] (🔵): Done cleanup. Flushing cache...
-[25/Mar/2020:10:30:18] (🔵): Flushed cache. Removing temporary data..
-[25/Mar/2020:10:30:18] (✅): Done importing
-[25/Mar/2020:10:30:18] (🔵): Busting elementor cache
-[25/Mar/2020:10:30:18] (✅): Front page set up with id: 91.
-[25/Mar/2020:10:30:18] (🔵): Setting up shop page.
-[25/Mar/2020:10:30:18] (✅): No WooCommerce.
+[29/Mar/2020:19:17:07] (ℹ️): WordPress Instance Info:
+[29/Mar/2020:19:17:07] (ℹ️): Home URL : https://michalasoendergaard.dk/storyscaping
+[29/Mar/2020:19:17:07] (ℹ️): Site URL : https://michalasoendergaard.dk/storyscaping
+[29/Mar/2020:19:17:07] (ℹ️): WordPress Version : 5.3.2
+[29/Mar/2020:19:17:07] (ℹ️): Onboarding Version : 1.8.2
+[29/Mar/2020:19:17:07] (ℹ️): Multisite : No
+[29/Mar/2020:19:17:07] (ℹ️): Server Info : Apache
+[29/Mar/2020:19:17:07] (ℹ️): PHP Version : 7.3.16
+[29/Mar/2020:19:17:07] (ℹ️): HTTPS : Yes
+[29/Mar/2020:19:17:07] (ℹ️): PHP Max Execution Time : 50
+[29/Mar/2020:19:17:07] (ℹ️): PHP Max Input Vars : 5000
+[29/Mar/2020:19:17:07] (ℹ️): Max Upload Size : 100663296
+[29/Mar/2020:19:17:07] (ℹ️): Plugins:
+[29/Mar/2020:19:17:07] (ℹ️): [PLUGIN] Elementor : v2.9.7 (Elementor.com)
+[29/Mar/2020:19:17:07] (ℹ️): [PLUGIN] ElementsKit Lite : v1.5.0 (Wpmet)
+[29/Mar/2020:19:17:07] (ℹ️): [PLUGIN] Essential Addons for Elementor : v3.9.1 (WPDeveloper)
+[29/Mar/2020:19:17:07] (ℹ️): [PLUGIN] Flipbox - Awesomes Flip Boxes Image Overlay : v2.4 (Biplob Adhikari)
+[29/Mar/2020:19:17:07] (ℹ️): [PLUGIN] WordPress News Plugin : v1.0.0 (Michala, Trine og Liv)
+[29/Mar/2020:19:17:07] (ℹ️): [PLUGIN] Gutenberg Blocks and Template Library by Otter : v1.5.1 (ThemeIsle)
+[29/Mar/2020:19:17:07] (ℹ️): [PLUGIN] Really Simple SSL : v3.3 (Rogier Lankhorst, Mark Wolters)
+[29/Mar/2020:19:17:07] (ℹ️): [PLUGIN] Sticky Menu (or Anything!) on Scroll : v2.2 (WebFactory Ltd)
+[29/Mar/2020:19:17:07] (ℹ️): [PLUGIN] Orbit Fox Companion : v2.9.4 (Themeisle)
+[29/Mar/2020:19:17:07] (ℹ️): [PLUGIN] Unlimited Elements for Elementor : v1.4.26 (Unlimited Elements)
+[29/Mar/2020:19:17:07] (ℹ️): [PLUGIN] WPFront Scroll Top : v2.0.2 (Syam Mohan)

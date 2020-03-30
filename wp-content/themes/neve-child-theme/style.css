@@ -5,7 +5,7 @@
  Author:       Trine Bickley, Liv Bryde Nielsen og Michala Søndergaard Nielsen
  Author URI:   http://michalasoendergaard.dk/storyscaping
  Template:     neve
- Version:      1.0.1
+ Version:      1.0.2
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -17,7 +17,41 @@
 .site-logo p {
     font-family: 'Montserrat', sans-serif;
     letter-spacing:2px !important;
+
 }
+
+/* --  overskrifter h1 og h2 --*/
+h1 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.elementor-91 .elementor-element.elementor-element-52c6b62b .elementor-heading-title {
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+/* --  Baggrundsfarve --*/
+
+.elementor-91 .elementor-element.elementor-element-450d1c77:not(.elementor-motion-effects-element-type-background), .elementor-91 .elementor-element.elementor-element-450d1c77 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #eff2eb !important;
+}
+
+.elementor-91 .elementor-element.elementor-element-490119e0:not(.elementor-motion-effects-element-type-background), .elementor-91 .elementor-element.elementor-element-490119e0 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: white !important;
+}
+
+.elementor-91 .elementor-element.elementor-element-538b1a0b:not(.elementor-motion-effects-element-type-background), .elementor-91 .elementor-element.elementor-element-538b1a0b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #eff2eb !important;;
+}
+
 
 /*-- ATIL flipbox ---*/
 
@@ -31,10 +65,6 @@
     background-color: #d6e3bf !important;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-}
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-}
+
+
