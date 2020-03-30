@@ -10,8 +10,8 @@ body
     height: 506px;
     position: relative;
     padding: 10px 10px;
-    background: #006a8b;
-    left: 60%;
+    background: #d6e6bf;
+
     top: 22%;
     transform: translateX(-50%) translateY(-50%);
     border-bottom: 5px solid gray;

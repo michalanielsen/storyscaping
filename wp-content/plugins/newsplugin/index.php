@@ -9,7 +9,7 @@
 * License: GPL2
 */
 
-function newsletter_form()
+function some_form()
 {
 
     $content = '';
@@ -45,7 +45,7 @@ function newsletter_form()
     
 }
     #First parameter is a self choosen name for a unique short-code. Second parameter is the name of the function that creates the newsletter
-    add_shortcode('show_newsletter','newsletter_form');
+    add_shortcode('show_someform','some_form');
 
     # Take action - activate it
     add_action('wp_enqueue_scripts','register_styles_and_scripts_for_plugin');
