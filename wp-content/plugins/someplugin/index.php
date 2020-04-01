@@ -3,7 +3,7 @@
 * Plugin Name: Michala, Trine og Liv plugin
 * Plugin URI: https://michalasoendergaard.dk/storyscaping
 * Description: This is a WordPress Some Plugin based on HTML5, CSS, JS and PHP
-* Version: 1.0.1
+* Version: 1.0.2
 * Author: Michala, Trine og Liv
 * Author: https://michalasoendergaard.dk/storyscaping
 * License: GPL2
@@ -14,48 +14,41 @@ function some_form()
 
     $content = '';
     $content .= '<div class="login-form">';
-    $content .= '<div class="popupCloseButton">X</div>';
-    /*$content .= '<div class="login-face">'; */
-    /* $content .= 'alt="login-face"></div>'; */
+    $content .= '<div class="popupCloseButton">X</div>'; /* end popupclosebutton */ 
     $content .= '<div id="promotion-header">';
-    $content .= '<h1 id="promotion-header-title"> FØLG KOGLE <br>PÅ SOCIALE MEDIER</br></h1></div>';
+    $content .= '<h1 id="promotion-header-title"> FØLG KOGLE <br>PÅ SOCIALE MEDIER</br></h1></div>'; /* end promotion header */
     $content .= '<section class="form">'; 
     $content .= '<form action="#">'; 
     $content .= '<div id="promotion-body">';
     $content .= '<p id="promotion-body-text">Ønsker du at se mere til Kogle i din hverdag, så følg os på sociale medier!</p>';
     $content .= '</div>';
+    /* end promotion body */
     
     $content .= '<section class="someikoner">';
     
     $content .= '<div id="facebook">';
-    $content .= '<img src=" '.plugins_url("someplugin/img/facebook-ikon.png" ).'"';
+    $content .= '<img src=" '.plugins_url("someplugin/img/facebook-ikon.png").'">';
     $content .= '</div>';
+    /* end facebook div */
     
     $content .= '<div id="instagram">';
-    $content .= '<img src=" '.plugins_url("someplugin/img/instagram-ikon.png").'"';
+    $content .= '<img src=" '.plugins_url("someplugin/img/instagram-ikon.png").'">';
     $content .= '</div>';
+    /* end instagram div */
     
     $content .= '<div id="linkedin">';
-    $content .= '<img src=" '.plugins_url("someplugin/img/linkedin-ikon.png").'"';
+    $content .= '<img src=" '.plugins_url("someplugin/img/linkedin-ikon.png").'">';
     $content .= '</div>';
+    /* end lindkin div */
    
-    $content .= '</section>';
-       
-    /* $content .= '<div class="input">';
-    $content .= '<input type="text" id="username" placeholder="John Mckinsey" name="username" required><i class="fa fa-user fa-1x"></i>'; 
-    $content .= '</div>';
-     $content .= '<div class="input">';
-    $content .= '<input type="email" id="email" placeholder="mckinsey@hotmail.com" name="email" required><i class="fa fa-envelope fa-1x"></i>'; 
-    $content .= '</div>';
-    $content .= '<div id="submitForm">';
-    $content .= '<input type="submit" id="submitBtn" name="submitBtn" value="Subscribe Newsletter!">'; 
-    $content .= '</div>'; */
+    $content .= '</section>'; /* end someikoner */ 
+
     $content .= '<div id="promotion-footer">';
     $content .= '<p id="promotion-footer-text"></p>'; 
-    $content .= '</div>';
-    $content .= '</form>';
-    $content .= '</section>';
-    $content .= '</div>';
+    $content .= '</div>'; /* end promotion footer */ 
+    $content .= '</form>'; /* end form */ 
+    $content .= '</section>'; /* end section form */ 
+    $content .= '</div>'; /* end login-form */ 
     
     return $content;
     
