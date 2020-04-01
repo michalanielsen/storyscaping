@@ -24,6 +24,23 @@ function some_form()
     $content .= '<div id="promotion-body">';
     $content .= '<p id="promotion-body-text">Ønsker du at se mere til Kogle i din hverdag, så følg os på sociale medier!</p>';
     $content .= '</div>';
+    
+    $content .= '<section class="someikoner">';
+    
+    $content .= '<div id="facebook">';
+    $content .= '<img src=" '.plugins_url("someplugin/img/facebook-ikon.png" ).'"';
+    $content .= '</div>';
+    
+    $content .= '<div id="instagram">';
+    $content .= '<img src=" '.plugins_url("someplugin/img/instagram-ikon.png").'"';
+    $content .= '</div>';
+    
+    $content .= '<div id="linkedin">';
+    $content .= '<img src=" '.plugins_url("someplugin/img/linkedin-ikon.png").'"';
+    $content .= '</div>';
+   
+    $content .= '</section>';
+       
     /* $content .= '<div class="input">';
     $content .= '<input type="text" id="username" placeholder="John Mckinsey" name="username" required><i class="fa fa-user fa-1x"></i>'; 
     $content .= '</div>';
