@@ -5,7 +5,7 @@
  Author:       Trine Bickley, Liv Bryde Nielsen og Michala Søndergaard Nielsen
  Author URI:   http://michalasoendergaard.dk/storyscaping
  Template:     neve
- Version:      1.0.2
+ Version:      1.0.3
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -19,8 +19,6 @@
     letter-spacing:2px !important;
 
 }
-
-
 
 
 /* --  overskrifter h1 og h2 --*/
@@ -116,7 +114,6 @@ h2{
     color: black !important;
     font-family:'montserrat'!important;
 }
-
 
 
 

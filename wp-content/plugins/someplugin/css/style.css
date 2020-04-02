@@ -1,10 +1,5 @@
-body
-{
-    margin: 0;
-    padding: 0;
-    background: #333;
-}
 
+/* selve formen på pop-up */
 .login-form {
     width: 350px;
     height: 300px;
@@ -20,19 +15,7 @@ body
     flex-direction: column; 
     z-index: 1;
 }
-
-
-.fa
-{
-    position: absolute;
-    right: 5px;
-    top: 0px;
-    padding-top: 12px;
-    color: gray;
-}
-
-
-
+/*Overskriften */
 #promotion-header
 {
     position: relative;
@@ -54,6 +37,7 @@ body
     margin-top: 0px;
     margin-bottom: 0px;
 }
+/* Teksten */
 
 #promotion-body {
     position: relative;
@@ -69,37 +53,17 @@ body
     color:#545a52;
     font-size:14px;
     font-weight:400;
-    line-height:1.5;
-    margin-top:10%;
+    line-height:1.6;
+    margin-top:8%;
     letter-spacing:0px;
     padding-left: 0px;
     width: 100%;
+    margin-bottom: auto;
 
    
 }
 
-#promotion-footer {
-    position: relative;
-    left: 230px;
-    top: 125px;
-    padding-top: 2px;
-}
-
-#promotion-footer-text
-{
-    text-align:left;
-    font-family:Montserrat;
-    color:#FFFFFF;
-    font-size:10px;
-    font-weight:300;
-    line-height:1.2;
-    letter-spacing:0px;
-    padding-left: 0px;
-    width: 55%;
-    margin-top: 20px;
-    margin-left: -30px;
-}
-
+/*Knappen man lukker pop-up'en ned med*/
 .popupCloseButton {
     background-color: #eff2eb;
     border: 2px solid #545a52;
@@ -118,67 +82,82 @@ body
     text-align: center;
 }
 
-.error-msg 
-{
-    position: relative;
-    left: 225px;
-    top: 160px;
-    font-family: Montserrat, sans-serif;
-    color: red;
-    letter-spacing: 0.28em;
-    text-align: center;
-    display: none;
-}
-
-
-.error
-{
-    position: relative;
-    animation: shake 1s;
-}
-
+/*Animation når pop-up'en fader ind*/
 .login-form {
 	-webkit-animation: login-form 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 6s both;
 	        animation: login-form 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 6s both;
 }
 
-/* ikoner */
+/* Ikoner styles */
 
 .someikoner    { 
     display: flex;
-    flex-wrap: wrap;
-    flex: none;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 2%;
     
 }
 
  #instagram {
-    display: flex;
-    flex-wrap: wrap;
-    width: 15%;
-    height: 15%;
+    width: 12%;
     margin-left: 15%;
     margin-right: 15%;
+     -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;  
 
 }
 
  #facebook {
-    display: flex;
-    flex-wrap: wrap;
-    flex: none;
-    width: 15%;
-    height: 15%;
+    width: 12%;
+    margin-left: 15%;
+     -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;  
 }
      
+/* Css animation på ikoner. Her tilføjes rotation til hvert ikon*/
 
+#facebook:hover{     
+ -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
 
- #linkedin {
-    display: flex;
-    flex-wrap: wrap;
-    width: 15%;
-    height: 15%;
-     
+#instagram:hover {     
+ -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+/* tilføjer en ny class i css, så vi kan tilgå det ved webkit, hvor det roterer i midten */
+.rotate-in-center {
+	-webkit-animation: rotate-in-center 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: rotate-in-center 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation rotate-in-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
 }
 
 
